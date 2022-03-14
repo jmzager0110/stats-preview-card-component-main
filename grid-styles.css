@@ -1,0 +1,246 @@
+/*Flex Friends:
+    flexContainer - Main Container
+    leftBox - Left/Text Container
+    notStats - text areas inc main & sub headings, flex-direction row
+    mainHeading - Largest Text
+    subHeading - Text that follows immediately, same font size as stats span
+    stats - separate flex container, flex-direction column
+    rightBox - card area that holds image, no gap
+    attribution - Text area that I decided should be a footer
+    */
+
+/*
+*{
+    max-width: 1440px;
+}*/
+
+.flexContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    flex-basis: auto;
+    position: absolute;
+    height: 900px;
+    width: 1300px;
+    margin-top: 100px;
+    margin-left: 115px;
+    margin-right: 115px;
+    border-radius: 5px;
+}
+
+body{
+    background: hsl(233, 47%, 7%);
+}
+
+body{
+    color: white;
+    font-family: 'Inter', serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+span{
+    font-family: 'Inter', serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.leftBox{
+    background: hsl(244, 38%, 16%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-basis: auto;
+    height: 900px;
+    width: 650px;
+
+}
+
+.notStats{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-basis: auto;
+    gap: 5px;
+}
+
+#mainHeading{
+    font-family: 'Inter', serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+#mainHeading span{
+    color: hsl(277, 64%, 61%);
+}
+
+
+.stats{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-basis: auto;
+    gap: 10px;
+}
+
+
+.rightBox{
+    display: flex;
+    background: hsl(244, 38%, 16%);
+    align-items: flex-end;
+    height: 900px;
+    width: 650px;
+
+}
+
+img{
+    opacity: .7;
+    height: 900px;
+    width: inherit;
+}
+
+/*footer*/
+
+.attribution {
+    font-size: 10px, 66%;
+    text-align: center; }
+
+.attribution a {
+    color: hsl(228, 45%, 44%); }
+
+.attSpec{
+    color: A459D1;
+    text-decoration: none;
+}
+.attSpec2{
+    color: A459D1;
+    text-decoration: none;
+}
+
+.attSpec:hover{
+    color: cfbaf0;
+    text-decoration: underline dotted green;
+}
+.attSpec2:hover{
+    color: 90dbf4;
+    text-decoration: blue wavy underline;
+}
+
+.attSpec:active{
+    color: a3c4f3;
+    text-decoration: dashed underline green;
+}
+
+.attSpec2:active{
+    color: 8eecf5;
+    text-decoration: blue wavy overline;
+}
+
+/*
+1em = 15px;
+2em = 30px;
+0.9em = 10px;
+
+@media (max-width: 376px) {
+
+body{
+    font-size: 15px, 1em;
+    color: FFF;
+    background: hsl(233, 47%, 7%);
+    font-family: 'Inter', serif;
+    font-weight: 400;
+}
+
+.leftBox{
+    background: hsl(244, 38%, 16%);
+    ***flex
+}
+
+#mainHeading{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', serif;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+#mainHeading span{
+    color: hsl(277, 64%, 61%);
+    font-family: 'Inter', serif;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+#subHeading{
+   color: hsla(0, 0%, 100%, 0.75);
+   font-family: 'Lexend Deca', serif;
+   font-weight: 400;
+    font-size: 1em;
+}
+
+.stats{
+    color: hsl(0, 0%, 100%. 0.6);
+    font-size: 1em;
+    font-family: 'Inter', serif;
+    font-weight: 400;
+}
+
+.stats span{
+    font-family: 'Inter', serif;
+    font-size: 2em;
+    font-weight: 700;
+    color: FFF;
+}
+
+#stat1
+
+#stat2
+
+#stat3
+
+.image{
+    background-color: 4f007d;
+}
+
+img
+
+.attribution {
+    font-size: 0.9em;
+    text-align: center; }
+
+.attribution a {
+    color: hsl(228, 45%, 44%); }
+
+.attSpec{
+    color: A459D1;
+    text-decoration: none;
+}
+.attSpec2{
+    color: A459D1;
+    text-decoration: none;
+}
+
+.attSpec:hover{
+    color: cfbaf0;
+    text-decoration: underline dotted green;
+}
+.attSpec2:hover{
+    color: 90dbf4;
+    text-decoration: blue wavy underline;
+}
+
+.attSpec:active{
+    color: a3c4f3;
+    text-decoration: dashed underline green;
+}
+
+.attSpec2:active{
+    color: 8eecf5;
+    text-decoration: blue wavy overline;
+}
+}
+*/
