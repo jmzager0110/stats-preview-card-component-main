@@ -101,12 +101,15 @@ span{
 }
 
 img{
+    object-fit: cover;
     opacity: 70%;
     max-width: 550px;
     border-top-right-radius: .75%;
     border-bottom-right-radius: .75%;
 }
-
+/*object-fit*/
+/*filter property for img*/
+/*aspect-ratio*/
 /*footer*/
 
 
