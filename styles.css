@@ -112,9 +112,10 @@ img{
 /*aspect-ratio*/
 /*footer*/
 
-
-
 .attribution {
+    position: absolute;
+    bottom: 0;
+    left: 38em;
     font-size: 10px, 66%;
     text-align: center; }
 
