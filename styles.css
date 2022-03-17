@@ -8,13 +8,18 @@
     rightBox - card area that holds image, no gap
     attribution - Text area that I decided should be a footer
     */
+    /*object-fit*/
+    /*filter property for img*/
+    /*aspect-ratio*/
 /* Size is 1440 x 800px, 150 top, bottom, left & right exterior, each card is roughly 550 x 450
-*{ max-width: 1440px; }*/
+*{ max-width: 1440px; }
+16px = 1em = 100% <- Fonts
+Padding & Margins in percentages computes values based on element*/
 /* padding: top-bottom, left-right*/
 /*margin: top, right, bottom, left, OR top-bottom, right-left; */
 
 .flexContainer{
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     flex-basis: auto;
     flex: 1 0 auto;
@@ -25,20 +30,21 @@
 }
 
 body{
+    display: flex;
     background-color: hsl(233, 47%, 7%);
 }
 
 body{
     color: white;
     font-family: 'Inter', serif;
-    font-size: 15px;
+    font-size: 16px 1em 100%;
     font-weight: 400;
 }
 
 span{
     font-family: 'Inter', serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 32px 2em 200%;
 }
 
 .leftBox{
@@ -107,9 +113,7 @@ img{
     border-top-right-radius: .75%;
     border-bottom-right-radius: .75%;
 }
-/*object-fit*/
-/*filter property for img*/
-/*aspect-ratio*/
+
 /*footer*/
 
 .attribution {
@@ -155,7 +159,7 @@ img{
 2em = 30px;
 0.9em = 10px;
 
-@media (max-width: 376px) {
+@media (max-width: 375px) {
 
 body{
     font-size: 15px, 1em;
