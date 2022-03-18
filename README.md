@@ -56,7 +56,11 @@ Obsess over each tiny detail, Googling each thing multiple times, until you real
 ### What I learned
 
  - More about FlexBox, the box that flexes!
- - Using specific tags/attributes for mobile responsiveness in addition to CSS
+ - More ways to handle images, like Filter
+ - Using specific tags/attributes for mobile responsiveness in addition to CSS:
+   - Aspect-Ratio
+   - Object-Fit
+   - Media Queries
 
 TODO: Add fav code snippets
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
@@ -65,7 +69,8 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ### Continued development
 
-TODO: Write about Sass & A11Y
+ - This challenge was perfect for me as I am learning about A11Y, learning about media queries is a great stepping stone.
+ - As a bonus, I've been desperately wanting to learn Sass, a lot of solutions I've seen used both, which really helps cement the relationship.
 
 ### Useful resources
 
@@ -80,5 +85,5 @@ TODO! Add more resources!
 
 ## Acknowledgments
 
-VMLYR CODE CHALLENGES GROUP!!! <3
+VMLY&R CODE CHALLENGES GROUP!!! <3
 
