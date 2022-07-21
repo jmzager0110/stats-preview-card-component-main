@@ -25,9 +25,9 @@ Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 
-### Screenshot - TODO
+### Screenshot - Desktop Solution
 
-![](./screenshot.jpg)
+![](images/solution-screenshot.png)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
@@ -49,8 +49,8 @@ Obsess over each tiny detail, Googling each thing multiple times, until you real
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid <- On his own optional style sheet TODO
-- Mobile-first workflow
+- CSS Flexbox
+- Mobile-first workflow <- TODO!
 
 
 ### What I learned
@@ -62,8 +62,6 @@ Obsess over each tiny detail, Googling each thing multiple times, until you real
    - Object-Fit
    - Media Queries
 
-TODO: Add fav code snippets
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 🎉🎉🎉
 

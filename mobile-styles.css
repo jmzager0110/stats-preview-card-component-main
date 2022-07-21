@@ -19,12 +19,21 @@ span{
     font-weight: 700;
     font-size: 2em;
 }
-
+/* "flex: 400px;" is shorthand for flex-grow: 1, flex-shrink: 1, flex-basis: 400px*/
+/*With "clamp", flex is changed to grid.*/
+/* So in this section...
 .flexContainer{
     display: flex;
     flex-wrap: wrap;
     flex-basis: auto;
-    flex: 1 0 auto;
+    flex: 1 0 auto; <- this is redundant due to the 2 lines above it
+}*/
+/* Using 375px in the flex property below makes the max-width/media query unnecessary? */
+.flexContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex: max (375px, 100%/3-20px);
+    repeat: (auto-fit, minmax 375px, 1fr));
 }
 
 .leftBox{
